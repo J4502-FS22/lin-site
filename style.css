@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(346deg, rgba(255,255,255,1) 0%, rgba(136,200,193,1) 55%, rgba(0,212,255,1) 100%); 
+    font-size: 16px;
+    
+}
+
+h1 {
+    font-family: 'DM Serif Text', serif, Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+}
+
+p {
+    display: flex;
+    align-self: flex-start;
+    font-family: 'Figtree', sans-serif, Arial, Helvetica, sans-serif
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
