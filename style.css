@@ -9,6 +9,15 @@ body{
     width: 700px;
     margin: auto;
 }
+nav {
+    padding: 10px;
+	background: #fff;
+  	border-radius: 5px;
+	margin: 45px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 h1 {
     font-family: 'DM Serif Text', serif, Georgia, 'Times New Roman', Times, serif;
@@ -56,4 +65,22 @@ ul {
     border: none;
     height: 250px;
     width: auto;
+}
+.location-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+@media (min-width: 550px) {
+    .image {
+        height: 250px;
+        width: auto;
+    }
+}
+@media (min-width: 800px) {
+    .image {
+        height: 300px;
+        width: auto;
+    }
 }
