@@ -9,7 +9,22 @@
     width: 700px;
     color: white;
     margin: auto;
-    font-family: 'Urbanist', serif, Arial, Helvetica, sans-serif;
+    font-family: 'Figtree', serif, Arial, Helvetica, sans-serif;
+}
+
+.indexbody {
+    background: rgb(134,134,134);
+    background: linear-gradient(278deg, rgba(134,134,134,1) 0%, rgba(87,166,208,1) 55%, rgba(0,161,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    font-size: 16px;
+    margin: auto;
+    width: 700px;
+    color: black;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif, Arial, Helvetica, sans-serif;
 }
 
 .gallerybody {
@@ -62,6 +77,21 @@ a:hover {
 figcaption {
     display: flex;
     justify-content: center;
+}
+
+.skip-link {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
 }
 
 .navitem {
@@ -122,7 +152,9 @@ figcaption {
     display: flex;
     justify-content: center;
     align-self: flex-start;
-    font-family: 'Figtree', sans-serif, Arial, Helvetica, sans-serif
+    font-family: 'Figtree', sans-serif, Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: gray;
 }
 
 .image {
