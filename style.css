@@ -13,8 +13,7 @@
 }
 
 .indexbody {
-    background: rgb(134,134,134);
-    background: linear-gradient(278deg, rgba(134,134,134,1) 0%, rgba(87,166,208,1) 55%, rgba(0,161,255,1) 100%);
+    background: rgb(234, 234,234);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +23,6 @@
     width: 700px;
     color: black;
     margin: auto;
-    font-family: 'Roboto Condensed', sans-serif, Arial, Helvetica, sans-serif;
 }
 
 .gallerybody {
@@ -37,7 +35,19 @@
     width: 700px;
     color: black;
     margin: auto; 
-    font-family: 'Figtree', sans-serif, Arial, Helvetica, sans-serif
+}
+
+.locationlistbody {
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 16px;
+    margin: auto;
+    width: 700px;
+    color: black;
+    margin: auto; 
+    font-family: 'Figtree', serif, Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -124,16 +134,12 @@ h1 {
 }
 
 h2 {
-    font-family: 'DM Serif Text', serif, Georgia, 'Times New Roman', Times, serif;
-    font-size: 3em;
-}
-
-h3 {
     font-family: 'Roboto Condensed', sans-serif, Arial, Helvetica, sans-serif;
     font-size: 2em;
 }
 
 p {
+    font-family: 'Figtree', sans-serif, Arial, Helvetica, sans-serif;
     display: flex;
     align-self: flex-start;
     font-family: 'Figtree', sans-serif, Arial, Helvetica, sans-serif
@@ -146,6 +152,30 @@ ul {
     justify-content: space-around;
     color: rgb(61, 69, 95);
   }
+
+.medialistfooter {
+    background: #000;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.everythingelsefooter {
+    background:rgb(234, 234, 234);
+    color: black;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}   
 
 figcaption {
     display: flex;
@@ -190,6 +220,7 @@ figcaption {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .hideThis {
